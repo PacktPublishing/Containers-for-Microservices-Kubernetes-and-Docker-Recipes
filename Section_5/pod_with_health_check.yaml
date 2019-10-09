@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: healthcheck
+spec:
+  containers: 
+    - image: gcr.io/kuar-demo/kuard-amd64:1
+      name: healthcheck
+      livenessProbe:
+        httpGet:
+          path: /healthy
+          port: 8080
+        initialDelaySeconds: 5 # will be called until 5 seconds after all containers 
+        # in this pod are created
+        timeoutSeconds: 1 # must respond within 1 second timeout
+        periodSeconds: 10 # k8 will call this probe every 10 seconds
+        failureThreshold: 3 # if more that 3 fails, the container will fail and restart
+      ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP

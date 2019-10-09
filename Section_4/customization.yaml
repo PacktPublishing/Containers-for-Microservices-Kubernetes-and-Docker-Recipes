@@ -1,0 +1,7 @@
+# customization.yaml
+apiVersion: config.annotation/v1
+kind: Customization
+commonAnnotations:
+  owner: Billy
+resources:
+- deployment.yaml
