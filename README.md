@@ -1,5 +1,5 @@
 # Containers-for-Microservices-Kubernetes-and-Docker-Recipes
-This is the code repository for [Containers for Microservices: Kubernetes and Docker Recipes [Video]](TBD), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+This is the code repository for [Containers for Microservices: Kubernetes and Docker Recipes [Video]](https://www.packtpub.com/web-development/containers-for-microservices-kubernetes-and-docker-recipes-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 
  
 
