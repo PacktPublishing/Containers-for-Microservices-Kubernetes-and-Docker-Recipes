@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/containers-for-microservices-kubernetes-and-docker-recipes-video/9781839214332)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Containers-for-Microservices-Kubernetes-and-Docker-Recipes
 This is the code repository for [Containers for Microservices: Kubernetes and Docker Recipes [Video]](https://www.packtpub.com/web-development/containers-for-microservices-kubernetes-and-docker-recipes-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 
